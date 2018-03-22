@@ -4,6 +4,6 @@ job('dsl-created-job') {
         github('dudick123/azure-dev', 'master')
     }
     triggers {
-        scm('H/5 * * * *')
+        scm('H/2 * * * *')
     }
 }
